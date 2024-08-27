@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative UI</title>
+    <!-- Bootstrap 5.3 CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">TyrePlex</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+
+                    <!-- Bike Tyres Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#services" id="bikeTyresDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Bike Tyres
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="bikeTyresDropdown">
+                            <li><a class="dropdown-item" href="#">Link 1</a></li>
+                            <li><a class="dropdown-item" href="#">Link 2</a></li>
+                            <li><a class="dropdown-item" href="#">Link 3</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- Car Tyres Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#services" id="carTyresDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Car Tyres
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="carTyresDropdown">
+                            <li><a class="dropdown-item" href="#">Link 1</a></li>
+                            <li><a class="dropdown-item" href="#">Link 2</a></li>
+                            <li><a class="dropdown-item" href="#">Link 3</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- Accessories Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#services" id="accessoriesDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Accessories &#x25BC;
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="accessoriesDropdown">
+                            <li><a class="dropdown-item" href="#">Link 1</a></li>
+                            <li><a class="dropdown-item" href="#">Link 2</a></li>
+                            <li><a class="dropdown-item" href="#">Link 3</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- Other Links -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Company details-->
+
+    <!-- Company Details Section with Scrolling Images -->
+    <section id="company-details" class="container my-5">
+        <div class="row align-items-center">
+            <!-- Details Column (Left) -->
+            <div class="col-md-6">
+                <div class="card border-0">
+                    <div class="card-body">
+                        <h3 class="card-title mb-4">SHREE HEMKUNT TYRES AND SERVICES</h3>
+                        <p class="card-text text-success">
+                            <strong>Verified</strong> <br>
+                            <span class="text-warning">&#9733; 4.9</span> (2278 Reviews)
+                        </p>
+
+                        <p class="card-text">
+                            <strong>Address:</strong> <br>
+                            PLOT NUMBER-09 GROUND FLOOR CISF CAMPUS ROAD, AHINSA KHAND-02 INDIRAPURAM, Ghaziabad, Uttar
+                            Pradesh, 201014
+                        </p>
+                        <p class="card-text">
+                            <strong>Hours of Operation:</strong> <br>
+                            Open - Monday to Sunday <br>
+                            10:00 AM to 8:00 PM
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Image Column (Right with Carousel) -->
+            <div class="col-md-6">
+                <div id="companyImagesCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <!-- First Image -->
+                        <div class="carousel-item active">
+                            <img src="https://lh3.googleusercontent.com/places/AAcXr8o52JCZ4eDqDhBAQRIDHcYnN1kNMCKBI27KOEuPvQk0C546Zftc9kpHLdW6kmlnbf1gGd7fSGfpctnLspNCfEpye7Rrmwrp094=s1600-w300"
+                                class="d-block w-100 rounded shadow-lg" alt="First Image">
+                        </div>
+                        <!-- Second Image -->
+                        <div class="carousel-item">
+                            <img src="https://lh3.googleusercontent.com/places/AAcXr8ryfQqAWHDmAPXAuK5o1Sk81OiWbLXHHNRm8OTBLFZE41-3arlK-Q7aMXjXp106o8p8Dca6OTnSTynW6ykkg86zy1-j4JRkpXI=s1600-w300"
+                                class="d-block w-100 rounded shadow-lg" alt="Second Image">
+                        </div>
+                        <!-- Third Image -->
+                        <div class="carousel-item">
+                            <img src="https://lh3.googleusercontent.com/places/AAcXr8o52JCZ4eDqDhBAQRIDHcYnN1kNMCKBI27KOEuPvQk0C546Zftc9kpHLdW6kmlnbf1gGd7fSGfpctnLspNCfEpye7Rrmwrp094=s1600-w300"
+                                class="d-block w-100 rounded shadow-lg" alt="Third Image">
+                        </div>
+                    </div>
+                    <!-- Carousel Controls (Previous and Next) -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#companyImagesCarousel"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#companyImagesCarousel"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Google Reviews Section -->
+    <section id="google-reviews" class="container my-5">
+        <h2 class="text-center mb-4">Customer Reviews</h2>
+
+        <!-- Google Reviews Carousel -->
+        <div id="reviewsCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+            <div class="carousel-inner">
+                <!-- Slide 1 -->
+                <div class="carousel-item active">
+                    <div class="row">
+                        <!-- Review 1 -->
+                        <div class="col-md-6">
+                            <div class="card p-4 mb-4 shadow-lg">
+                                <div class="card-body">
+                                    <h5 class="card-title">John Doe</h5>
+                                    <!-- Rating (Stars) -->
+                                    <div class="d-flex align-items-center mb-2">
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star-half-alt text-warning"></i> <!-- Half star -->
+                                        <span class="text-warning">&#9733; 4.5</span>
+                                    </div>
+                                    <!-- Review Text -->
+                                    <p class="card-text">
+                                        "Excellent service! Highly recommended."
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Review 2 -->
+                        <div class="col-md-6">
+                            <div class="card p-4 mb-4 shadow-lg">
+                                <div class="card-body">
+                                    <h5 class="card-title">Jane Smith</h5>
+                                    <!-- Rating (Stars) -->
+                                    <div class="d-flex align-items-center mb-2">
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i> <!-- 5 stars -->
+                                        <span class="text-warning">&#9733; 5.0</span>
+                                    </div>
+                                    <!-- Review Text -->
+                                    <p class="card-text">
+                                        "Great experience. The staff was very helpful and professional."
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="carousel-item">
+                    <div class="row">
+                        <!-- Review 3 -->
+                        <div class="col-md-6">
+                            <div class="card p-4 mb-4 shadow-lg">
+                                <div class="card-body">
+                                    <h5 class="card-title">David Brown</h5>
+                                    <!-- Rating (Stars) -->
+                                    <div class="d-flex align-items-center mb-2">
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star-half-alt text-warning"></i> <!-- Half star -->
+                                        <span class="text-warning">&#9733; 4.0</span>
+                                    </div>
+                                    <!-- Review Text -->
+                                    <p class="card-text">
+                                        "Good service, but the waiting time could be shorter."
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Review 4 -->
+                        <div class="col-md-6">
+                            <div class="card p-4 mb-4 shadow-lg">
+                                <div class="card-body">
+                                    <h5 class="card-title">Emily Davis</h5>
+                                    <!-- Rating (Stars) -->
+                                    <div class="d-flex align-items-center mb-2">
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star-half-alt text-warning"></i> <!-- Half star -->
+                                        <span class="text-warning">&#9733; 4.5</span>
+                                    </div>
+                                    <!-- Review Text -->
+                                    <p class="card-text">
+                                        "Very satisfied with the service provided. Will come again!"
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <!-- Carousel Controls (Previous and Next) -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#reviewsCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#reviewsCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- Deals In Section -->
+    <section id="deals-in" class="container">
+        <h2 class="text-center mb-5">Deals In</h2>
+
+        <!-- Carousel for Company Logos -->
+        <div id="logosCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+            <!-- Carousel Inner -->
+            <div class="carousel-inner">
+                <!-- Slide 1 -->
+                <div class="carousel-item active">
+                    <div class="d-flex justify-content-around">
+                        <img src="https://via.placeholder.com/150x50?text=MRF" alt="MRF Logo">
+                        <img src="https://via.placeholder.com/150x50?text=Apollo" alt="Apollo Logo">
+                        <img src="https://via.placeholder.com/150x50?text=Ceat" alt="Ceat Logo">
+                    </div>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-around">
+                        <img src="https://via.placeholder.com/150x50?text=Goodyear" alt="Goodyear Logo">
+                        <img src="https://via.placeholder.com/150x50?text=JK+Tyre" alt="JK Tyre Logo">
+                        <img src="https://via.placeholder.com/150x50?text=Bridgestone" alt="Bridgestone Logo">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Carousel Controls -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#logosCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#logosCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+
+
+    <!-- Link to Font Awesome CDN for Stars -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+
+    <div class="container my-5">
+        <div class="row">
+            <!-- Tyre Card 1 -->
+            <div class="col-md-4 mb-4">
+                <div class="card product-card p-3 position-relative">
+                    <div class="badge-warranty">5 Year Warranty</div>
+                    <h5 class="text-primary">apollo</h5>
+                    <p>AMAZER 4G LIFE</p>
+                    <p>145/80 R12</p>
+                    <img src="/suv-car-tyre-500x500.webp" alt="Tyre Image" class="product-img mb-3">
+                    <p class="rating-stars">★ 4.0 <span class="text-muted">(320 Reviews)</span></p>
+                    <h5 class="text-danger">₹ 3,136</h5>
+                    <p class="text-success">Offer available</p>
+                    <p class="text-muted">Tube Type</p>
+                </div>
+            </div>
+
+            <!-- Tyre Card 2 -->
+            <div class="col-md-4 mb-4">
+                <div class="card product-card p-3 position-relative">
+                    <div class="badge-warranty">5 Year Warranty</div>
+                    <h5 class="text-primary">apollo</h5>
+                    <p>AMAZER 4G LIFE</p>
+                    <p>145/80 R13</p>
+                    <img src="/suv-car-tyre-500x500.webp" alt="Tyre Image" class="product-img mb-3">
+                    <p class="rating-stars">★ 4.0 <span class="text-muted">(320 Reviews)</span></p>
+                    <h5 class="text-danger">₹ 3,562</h5>
+                    <p class="text-success">Offer available</p>
+                    <p class="text-muted">Tubeless</p>
+                </div>
+            </div>
+
+            <!-- Tyre Card 3 -->
+            <div class="col-md-4 mb-4">
+                <div class="card product-card p-3 position-relative">
+                    <div class="badge-warranty">5 Year Warranty</div>
+                    <h5 class="text-primary">apollo</h5>
+                    <p>AMAZER 4G LIFE</p>
+                    <p>155/65 R13</p>
+                    <img src="/suv-car-tyre-500x500.webp" alt="Tyre Image" class="product-img mb-3">
+                    <p class="rating-stars">★ 4.0 <span class="text-muted">(320 Reviews)</span></p>
+                    <h5 class="text-danger">₹ 3,401</h5>
+                    <p class="text-success">Offer available</p>
+                    <p class="text-muted">Tubeless</p>
+                </div>
+            </div>
+            <!-- Hidden Tyre Cards (Second Set) -->
+            <div class="collapse" id="moreCards">
+                <div class="row">
+                    <!-- Hidden Tyre Cards (Second Set) -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card product-card p-3 position-relative">
+                            <div class="badge-warranty">5 Year Warranty</div>
+                            <h5 class="text-primary">apollo</h5>
+                            <p>AMAZER 4G LIFE</p>
+                            <p>165/70 R14</p>
+                            <img src="/suv-car-tyre-500x500.webp" alt="Tyre Image" class="product-img mb-3">
+                            <p class="rating-stars">★ 4.0 <span class="text-muted">(320 Reviews)</span></p>
+                            <h5 class="text-danger">₹ 3,618</h5>
+                            <p class="text-success">Offer available</p>
+                            <p class="text-muted">Tubeless</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                        <div class="card product-card p-3 position-relative">
+                            <div class="badge-warranty">5 Year Warranty</div>
+                            <h5 class="text-primary">apollo</h5>
+                            <p>AMAZER 4G LIFE</p>
+                            <p>155/65 R14</p>
+                            <img src="/suv-car-tyre-500x500.webp" alt="Tyre Image" class="product-img mb-3">
+                            <p class="rating-stars">★ 4.0 <span class="text-muted">(320 Reviews)</span></p>
+                            <h5 class="text-danger">₹ 4,013</h5>
+                            <p class="text-success">Offer available</p>
+                            <p class="text-muted">Tubeless</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                        <div class="card product-card p-3 position-relative">
+                            <div class="badge-warranty">5 Year Warranty</div>
+                            <h5 class="text-primary">apollo</h5>
+                            <p>AMAZER 4G LIFE</p>
+                            <p>165/70 R13</p>
+                            <img src="/suv-car-tyre-500x500.webp" alt="Tyre Image" class="product-img mb-3">
+                            <p class="rating-stars">★ 4.0 <span class="text-muted">(320 Reviews)</span></p>
+                            <h5 class="text-danger">₹ 4,113</h5>
+                            <p class="text-success">Offer available</p>
+                            <p class="text-muted">Tubeless</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="text-center">
+                <button class="btn btn-outline-primary" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#moreCards" aria-expanded="false" aria-controls="moreCards" id="viewMoreBtn">
+                    View More
+                </button>
+            </div>
+
+
+
+        </div>
+        <!-- Services Section -->
+        <section id="services" class="container my-5">
+            <h2 class="text-center mb-4">Our Services</h2>
+            <div class="row text-center">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <img src="service1.jpg" class="card-img-top" alt="Service 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Service 1</h5>
+                            <p class="card-text">We provide the best services to meet your needs.</p>
+                            <a href="#" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <img src="service2.jpg" class="card-img-top" alt="Service 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Service 2</h5>
+                            <p class="card-text">Our team is dedicated to delivering top-notch results.</p>
+                            <a href="#" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <img src="service3.jpg" class="card-img-top" alt="Service 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Service 3</h5>
+                            <p class="card-text">Discover how we can help you succeed.</p>
+                            <a href="#" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Payment Mode Section -->
+        <section id="payment-mode" class="container">
+            <h2 class="text-center mb-5">Payment Modes</h2>
+            <div class="row">
+                <!-- Deposit to Account -->
+                <div class="col-md-4 mb-4">
+                    <div class="payment-card">
+                        <img src="https://via.placeholder.com/100?text=Deposit" alt="Deposit to Account">
+                        <h5>Deposit to Account</h5>
+                        <p>Transfer directly to our bank account.</p>
+                    </div>
+                </div>
+
+                <!-- Net Banking -->
+                <div class="col-md-4 mb-4">
+                    <div class="payment-card">
+                        <img src="https://via.placeholder.com/100?text=Net+Banking" alt="Net Banking">
+                        <h5>Net Banking</h5>
+                        <p>Use your bank's online portal for payment.</p>
+                    </div>
+                </div>
+
+                <!-- Credit Card/Debit Card -->
+                <div class="col-md-4 mb-4">
+                    <div class="payment-card">
+                        <img src="https://via.placeholder.com/100?text=Card" alt="Credit Card/Debit Card">
+                        <h5>Credit Card/Debit Card</h5>
+                        <p>Pay using your credit or debit card.</p>
+                    </div>
+                </div>
+
+                <!-- UPI -->
+                <div class="col-md-4 mb-4">
+                    <div class="payment-card">
+                        <img src="https://via.placeholder.com/100?text=UPI" alt="UPI">
+                        <h5>UPI</h5>
+                        <p>Make payments using Unified Payments Interface (UPI).</p>
+                    </div>
+                </div>
+
+                <!-- Wallets -->
+                <div class="col-md-4 mb-4">
+                    <div class="payment-card">
+                        <img src="https://via.placeholder.com/100?text=Wallets" alt="Wallets">
+                        <h5>Wallets</h5>
+                        <p>Pay using digital wallets like PayTM, PhonePe, Amazon Pay, etc.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- About Section -->
+        <section id="about" class="bg-light py-5">
+            <div class="container">
+                <h2 class="text-center mb-4">About Us</h2>
+                <p class="text-center">We are a team of creative professionals dedicated to providing innovative
+                    solutions.
+                </p>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="container py-5">
+            <h2 class="text-center mb-4">Contact Us</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Your Name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Your Email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="bg-dark text-white text-center py-3">
+            <p>&copy; 2024 TyrePlex. All rights reserved.</p>
+            <div>
+                <a href="#" class="text-white me-3">Facebook</a>
+                <a href="#" class="text-white me-3">Twitter</a>
+                <a href="#" class="text-white">LinkedIn</a>
+            </div>
+        </footer>
+
+
+
+        <!-- Bootstrap JavaScript Bundle with Popper -->
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+
+
+        <!-- Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+
+        <script>
+            document.getElementById('moreCards').addEventListener('shown.bs.collapse', function () {
+                document.getElementById('viewMoreBtn').innerText = "Show Less";
+            });
+
+            document.getElementById('moreCards').addEventListener('hidden.bs.collapse', function () {
+                document.getElementById('viewMoreBtn').innerText = "View More";
+            });
+        </script>
+</body>
+
+</html>
